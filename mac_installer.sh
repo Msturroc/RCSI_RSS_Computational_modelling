@@ -38,6 +38,5 @@ println("Notebook downloaded to $notebook_path")
 julia -e '
 using IJulia
 notebook_dir = "'$HOME/Downloads'"
-cd(notebook_dir)
-notebook(detached=true)
+notebook(dir=notebook_dir,detached=true)
 '
