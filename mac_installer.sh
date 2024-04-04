@@ -9,8 +9,8 @@ then
 fi
 
 # Install Julia using juliaup
-juliaup add stable
-juliaup default stable
+juliaup add release
+juliaup default release
 
 # Install required Julia packages
 julia -e '
