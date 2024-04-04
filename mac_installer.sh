@@ -13,9 +13,9 @@ juliaup add release
 juliaup default release
 
 # Install required Julia packages
-julia -e '
+julia --inline=no -e '
 using Pkg
-Pkg.add(["Plots", "OrdinaryDiffEq", "DataFrames", "CSV", "Agents", "IJulia", "Base64", "CairoMakie", "Distributions", "Dates", "Graphs", "LsqFit", "DrWatson", "GraphMakie", "HTTP", "Random", "LinearAlgebra", "InteractiveDynamics"]; io=stderr)
+Pkg.add(["Plots", "OrdinaryDiffEq", "DataFrames", "CSV", "Agents", "IJulia", "Base64", "CairoMakie", "Distributions", "Dates", "Graphs", "LsqFit", "DrWatson", "GraphMakie", "HTTP", "Random", "LinearAlgebra", "InteractiveDynamics"])
 '
 
 
@@ -43,7 +43,6 @@ do
     println("Notebook downloaded to $notebook_path")
     '
 done
-'
 
 # Launch the Jupyter Notebook
 julia -e '
