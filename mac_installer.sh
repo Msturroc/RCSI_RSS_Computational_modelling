@@ -37,5 +37,7 @@ println("Notebook downloaded to $notebook_path")
 # Launch the Jupyter Notebook
 julia -e '
 using IJulia
-notebook(detached=true, dir="'$HOME/Downloads'", file="covid_19_modelling1.ipynb")
+notebook_dir = "'$HOME/Downloads'"
+cd(notebook_dir)
+notebook(detached=true)
 '
