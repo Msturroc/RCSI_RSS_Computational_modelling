@@ -13,12 +13,12 @@ juliaup add release
 juliaup default release
 
 # Install required Julia packages
-#julia -e '
-#using Pkg
-#Pkg.add(["Plots", "OrdinaryDiffEq", "DataFrames", "CSV", "Agents", "IJulia", "Base64", "CairoMakie", "Distributions", "Dates", "Graphs", "LsqFit", "DrWatson", "GraphMakie", "HTTP", "Random", "LinearAlgebra", #"InteractiveDynamics"])
-#'
+julia -e '
+using Pkg
+Pkg.add(["Plots", "OrdinaryDiffEq", "DataFrames", "CSV", "Agents", "IJulia", "Base64", "CairoMakie", "Distributions", "Dates", "Graphs", "LsqFit", "DrWatson", "GraphMakie", "HTTP", "Random", "LinearAlgebra", "InteractiveDynamics"])
+'
 
-curl -L -o precompiled_packages.so "https://rcsicampus-my.sharepoint.com/:u:/r/personal/marcsturrock_rcsi_com/Documents/RSS/precompiled_packages.so?csf=1&web=1&e=9zc8fy"
+#curl -L -o precompiled_packages.so "https://rcsicampus-my.sharepoint.com/:u:/r/personal/marcsturrock_rcsi_com/Documents/RSS/precompiled_packages.so?csf=1&web=1&e=9zc8fy"
 
 
 # Set the download URLs and destination paths
