@@ -47,7 +47,7 @@ do
 done
 
 # Launch the Jupyter Notebook
-julia --sysimage precompiled_packages.so -e '
+julia -e '
 using IJulia
 notebook_dir = "'$HOME/Downloads'"
 notebook(dir=notebook_dir,detached=true)
