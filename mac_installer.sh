@@ -29,7 +29,7 @@ notebook_urls=(
     
 )
 notebook_paths=(
-    "$HOME/Downloads/covid_19_modelling2.ipynb"
+    "$HOME/Downloads/ODE_notebook.ipynb"
     "$HOME/Downloads/covid_19_modelling1.ipynb"
     "$HOME/Downloads/covid_19_modelling2.ipynb"
 )
