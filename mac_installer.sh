@@ -23,10 +23,13 @@ Pkg.add(["Plots", "OrdinaryDiffEq", "DataFrames", "CSV", "Agents", "IJulia", "Ba
 
 # Set the download URLs and destination paths
 notebook_urls=(
+    "https://raw.githubusercontent.com/Msturroc/covid_models/main/ODE_notebook.ipynb"
     "https://raw.githubusercontent.com/Msturroc/covid_models/main/covid_19_modelling1.ipynb"
     "https://raw.githubusercontent.com/Msturroc/covid_models/main/covid_19_modelling2.ipynb"
+    
 )
 notebook_paths=(
+    "$HOME/Downloads/covid_19_modelling2.ipynb"
     "$HOME/Downloads/covid_19_modelling1.ipynb"
     "$HOME/Downloads/covid_19_modelling2.ipynb"
 )
