@@ -1,5 +1,3 @@
-# README.md
-
 ## Overview
 
 Welcome to the Computational Modelling Repository. This repository contains Jupyter Notebooks and automatic installation files for both Mac and Windows machines. The notebooks are designed for sessions on the computational modelling of tumour growth and the spread of COVID-19. The models employed are based on ordinary differential equations (ODEs), and the programming language used is Julia.
