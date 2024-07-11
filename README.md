@@ -7,8 +7,11 @@ Welcome to the Computational Modelling Repository. This repository contains Jupy
 ## Repository Structure
 
 - **Notebooks/**: Contains Jupyter Notebooks for the computational modelling sessions.
-  - `Tumour_Growth_Model.ipynb`: Notebook for modelling tumour growth using ODEs.
-  - `COVID19_Spread_Model.ipynb`: Notebook for modelling the spread of COVID-19 using ODEs.
+  - `covid19/`: Contains notebooks for modelling the spread of COVID-19 using ODEs.
+    - `covid_19_modelling1.ipynb`
+    - `covid_19_modelling2.ipynb`
+  - `tumour_growth_model/`: Contains a notebook for modelling tumour growth using ODEs.
+    - `ODE_notebook.ipynb`
 - **Installation/**: Contains scripts for automatic installation of required software and dependencies.
   - `install_mac.sh`: Script for setting up the environment on Mac machines.
   - `install_windows.bat`: Script for setting up the environment on Windows machines.
@@ -95,6 +98,10 @@ Contributions to this repository are welcome. If you wish to contribute, please 
    ```
 5. Open a Pull Request.
 
+## License
+
+This repository is licensed under the MIT License. See the `LICENSE` file for more details.
+
 ## Acknowledgements
 
 We would like to thank all contributors and users for their support and feedback. Your contributions are invaluable to the improvement and success of this project.
@@ -104,3 +111,4 @@ We would like to thank all contributors and users for their support and feedback
 For any queries or issues, please contact [marcsturrock@rcsi.ie](mailto:marcsturrock@rcsi.ie) or open an issue in this repository.
 
 ---
+
